@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 html{
     /*variaveis*/
     --bg-color: #EDF2FF;
@@ -11,20 +10,8 @@ html{
     --primary-color: #4263EB;
     --primary-color-dark: #364FC7;
 }
-
 a{
     text-decoration: none;
-}
-
-body.dark{
-    --bg-color: #00082F;
-    --text-color: #FFFFFF;
-}
-body.pink{
-    --bg-color: #FFF0F6;
-    --text-color: #1F000B;
-    --primary-color: #D6336C;
-    --primary-color-dark: #A61E4D;
 }
 body.nutriinova{
     --bg-color: #FFADAD;
@@ -32,13 +19,11 @@ body.nutriinova{
     --primary-color: #7B337D;
     --primary-color-dark: #672B69;
 }
-
 body {
     background:  var(--bg-color);
     color: var(--text-color);
     font-family: 'Roboto', sans-serif;
 }
-
 .flex-container{
     display: flex;
     flex-direction: column;
@@ -58,7 +43,6 @@ img.avatar{
     opacity: 0.9;
     max-width:400px;
 }
-
 h1{
     font-size: 32px;
     margin-top: 24px;
@@ -68,35 +52,11 @@ h1{
 h1.nutri-font{
     font-family: 'Berkshire Swash', cursive;
 }
-
 header{
     display: flex;
     align-items: center;
     justify-content:center;
     max-width:100%;
-}
-
-ul{
-    list-style:none;
-    margin: 48px 0;
-}
-
-ul li a {
-    height: 53px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: var(--primary-color);
-    color: white;
-    font-size: 14px;
-
-    margin: 16px;
-    border-radius: 6px;
-
-    transition: background 400ms;
-}
-ul li a:hover{
-    background: var(--primary-color-dark);
 }
 p.expert{
     margin-left: 12px;
@@ -108,26 +68,22 @@ p.expert{
     opacity: 0.8;
     font-size: 18px;
 }
-
 p.username{
     font-family: 'Roboto Mono', monospace;
     font-weight: 400;
     opacity: 0.8;
     font-size: 18px;
 }
-
-i.icones{
-    padding: 0.5rem;
-}
-
 div.div-banners{
+    border: 2px solid red;
     opacity: 0.9;
     transition:  400ms;
+    margin: 14px;
+    
 }
 div.div-banners:hover{
     opacity: 1;
 }
-
 .sereianas img{
     max-width: 200px;
     opacity: 0.6;
@@ -136,7 +92,6 @@ div.div-banners:hover{
 .sereianas img:hover{
     opacity: 1;
 }
-
 footer{
     display:flex;
     flex-direction: column;
@@ -149,12 +104,10 @@ footer{
     opacity: 0.5;
     transition: 400ms;
 }
-
 footer:hover{
     opacity: 1;
     color: var(--primary-color-dark);
 }
-
 footer a {
     color: var(--primary-color);
 }
