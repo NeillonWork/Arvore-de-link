@@ -75,7 +75,6 @@ p.username{
     font-size: 18px;
 }
 div.div-banners{
-    border: 2px solid red;
     opacity: 0.9;
     transition:  400ms;
     margin: 14px;
