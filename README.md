@@ -35,7 +35,7 @@
 
 # Sobre
 <p>
-Pagina agregadora de links, desenvolvida para a cliente <a href="https://nutriinova.com.br/" target="_blank">Nutri Inova</a>  utilizar em sua BIO do instagram.</br>
+Página agregadora de links, desenvolvida para a cliente <a href="https://nutriinova.com.br/" target="_blank">Nutri Inova</a>  utilizar em sua BIO do instagram.</br>
 Os banners estão sendo utilizados como link, criei a arte na plataforma Canva. Utilizei o formato SVG para facilitar em futuras manutenções das imagens.
 </br> 
 <b>Observações</b>: A Nutri Inova liberou o projeto para que fique público em meu perfil do Github e disponivel para inspirar novas pessoas. 
