@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 html{
-    /*variaveis*/
+    /*variaveis para gerar teplate de cores*/
     --bg-color: #EDF2FF;
     --text-color: #00082F;
     --primary-color: #4263EB;
